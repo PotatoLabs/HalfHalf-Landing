@@ -289,41 +289,11 @@ nav a {
   }
 }
 
-.email-label {
-  font-family: 'Nixie One', bold;
-  font-weight: 800;
-  color: white;
+.ml-subscribe-form {
+  display: flex;
+  justify-content: center;
 }
 
-#mc_embed_signup{
-  clear: left;
-  width: 50%;
-  border-radius: 5px;
-  margin: 0 auto;
-  background-color: #F17B40;
-  padding: 10px;
-}
-
-@media all and (min-width: 820px) {
-  #mc_embed_signup{
-    width: 82%;
-  }
-}
-
-#mc_embed_signup input.email {
-  font-family: 'Nixie One', bold !important;
-}
-
-.subscribe-button-wrapper {
-  margin-top: 10px;
-}
-
-@media all and (min-width: 1153px) {
-  .subscribe-button-wrapper {
-    margin-top: 0px;
-  }
-}
-
-#mc-embedded-subscribe {
-  background-color: #3072AC !important;
+.get-notified {
+  font-family: 'Arial', bold;
 }
